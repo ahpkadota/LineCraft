@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<style>
+.button {
+    background-color: #e6ecff;
+	height: 20px;
+	width: 500px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 3px 2px;
+}
+.button:hover {
+    background-color: #99b3ff;
+	width: 500px;
+	height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.button1 {
+    background-color: #ccd9ff;
+	width: 500px;
+	height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.button1:hover {
+    background-color: #99b3ff;
+	width: 500px;
+	height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.button2 {
+    background-color: #f2f2f2;
+	width: 500px;
+	height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.button2:hover {
+    background-color: #e6e6e6;
+	width: 500px;
+	height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.button3 {
+    background-color: #ffe6ff;
+	width: 500px;
+	height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.button3:hover {
+    background-color: #ffb3ff;
+	width: 500px;
+	height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.button4 {
+    background-color: #ccebff;
+	width: 500px;
+	height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.button4:hover {
+    background-color: #99e6ff;
+	width: 500px;
+	height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.button5 {
+    background-color: #ccffcc;
+	width: 500px;
+	height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.button5:hover {
+    background-color: lightgreen;
+	width: 500px;
+	height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.button6 {
+    background-color: #ffffcc;
+	width: 500px;
+	height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.button6:hover {
+    background-color: #ffff88;
+	width: 500px;
+	height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.button7 {
+    background-color: #ffd9b3;
+	width: 500px;
+	height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.button7:hover {
+    background-color: #ffc266;
+	width: 500px;
+	height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.button8 {
+    background-color: #ff9999;
+	width: 500px;
+	height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.button8:hover {
+    background-color: #ff6699;
+	width: 500px;
+	height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.button9 {
+    background-color: white;
+    color: royalblue;
+    border: solid silver;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 5px 10px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+.button9:hover {
+    background-color: ghostwhite;
+    border: solid grey;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 5px 10px;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+img.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 60px;
+    z-index: 1;
+    border: 2px solid red;
+}
+.coloropt {
+    width: 18%;
+}
+input[type=checkbox] {
+  transform: scale(2);
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    max-width: 400px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    opacity: 0.8;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    transition-delay:1200ms;
+}
+
+</style>
+<body>
+<img src="warning.png" class="fixed" style="display:none" id="warning">
+<script src="popup.js"></script>   
+<button id="1" class="button9">MOST USED</button>
+<button id="2" class="button9" contenteditable="false">TAB 1</button>
+<button id="3" class="button9" contenteditable="false">TAB 2</button>
+<button id="4" class="button9" contenteditable="false">TAB 3</button>
+<button id="5" class="button9" contenteditable="false">TAB 4</button>
+<button id="6" class="button9" contenteditable="false">TAB 5</button>
+<div id="mostused" style= "display:block">
+    <br>
+    <a style="font-size: 130%; padding: 5px 10px; margin: 3px 2px; font-family: Arial, Helvetica, sans-serif" class="header"><b> MOST USED </b></a>
+    <br>  
+  <div style="display:flex" class="tooltip" id="elmt">
+    <input type="text" name="button" class="button" value="" readonly>
+      <span class="tooltiptext"></span>
+    <select name="color" id="clr" style="display:none" class="coloropt">
+      <option value="button" selected>defaultblue</option>
+      <option value="button1">defaultblue2</option>
+      <option value="button2">grey</option>
+      <option value="button3">pink</option>
+      <option value="button4">blue</option>
+      <option value="button5">green</option>
+      <option value="button6">yellow</option>
+      <option value="button7">orange</option>
+      <option value="button8">red</option>
+    </select>
+  </div>
+</div>
+<div id="tab1" style= "display:none">
+ <br>
+  <a style="font-size: 130%; padding: 5px 10px; margin: 3px 2px; font-family: Arial, Helvetica, sans-serif" class="header"><b> TAB 1 </b></a>
+  <br>    
+
+	<br>
+</div>
+<div id="tab2" style= "display:none">
+ <br>
+  <a style="font-size: 130%; padding: 5px 10px; margin: 3px 2px; font-family: Arial, Helvetica, sans-serif" class="header"><b> TAB 2 </b></a>
+  <br>    
+
+	<br>
+</div>
+<div id="tab3" style= "display:none">
+ <br>
+  <a style="font-size: 130%; padding: 5px 10px; margin: 3px 2px; font-family: Arial, Helvetica, sans-serif" class="header"><b> TAB 3 </b></a>
+  <br>    
+
+	<br>
+</div>
+<div id="tab4" style= "display:none">
+ <br>
+  <a style="font-size: 130%; padding: 5px 10px; margin: 3px 2px; font-family: Arial, Helvetica, sans-serif" class="header"><b> TAB 4</b></a>
+  <br>    
+
+	<br>
+</div>
+<div id="tab5" style= "display:none">
+ <br>
+  <a style="font-size: 130%; padding: 5px 10px; margin: 3px 2px; font-family: Arial, Helvetica, sans-serif" class="header"><b> TAB 5 </b></a>
+  <br>    
+
+	<br>
+</div>
+  <br>
+  <br>
+  <a style="font-size: 130%; padding: 5px 10px; margin: 3px 2px; font-family: Arial, Helvetica, sans-serif"><b> GENERAL </b></a>
+    <br>
+<div style="display:block" class="tooltip">
+<input type="text" class="button3" value="CR1: [Y] content made for very young children. These are made for educational or entertainment purposes for kids." readonly><br>
+  <span class="tooltiptext">"CR1: [Y] content made for very young children. These are made for educational or entertainment purposes for kids."</span>
+  </div>
+<div style="display:block" class="tooltip">
+<input type="text" class="button4" value="CR1: [G] content with no bad language, sexual content, violence or drugs. May or may not be made for children but is completely safe for them to watch. (all audiences)." readonly><br>
+  <span class="tooltiptext">"CR1: [G] content with no bad language, sexual content, violence or drugs. May or may not be made for children but is completely safe for them to watch. (all audiences)."</span>
+  </div>
+<div style="display:block" class="tooltip">
+<input type="text" class="button5" value="CR1: [PG] may have mild scenes or references to non-expletive language, sexual content, violence or drugs. These occurrences are infrequent and are isolated, singular incidents throughout the span of the video, and typically used in a comedic, scientific or other non-offensive content. Generally geared towards the early teens and older audience. (Parental Guidance)" readonly><br>
+  <span class="tooltiptext">"CR1: [PG] may have mild scenes or references to non-expletive language, sexual content, violence or drugs. These occurrences are infrequent and are isolated, singular incidents throughout the span of the video, and typically used in a comedic, scientific or other non-offensive content. Generally geared towards the early teens and older audience. (Parental Guidance)"</span>
+  </div>
+<div style="display:block" class="tooltip">
+<input type="text" class="button6" value="CR1: [T] default run-of-the-mill content and will contain a moderate amount of inappropriate language and/or references to sexual content, violence, drugs, and some partial/minimally covered nudity. Geared towards mid-teens and older audience." readonly><br>
+  <span class="tooltiptext">"CR1: [T] default run-of-the-mill content and will contain a moderate amount of inappropriate language and/or references to sexual content, violence, drugs, and some partial/minimally covered nudity. Geared towards mid-teens and older audience."</span>
+  </div>
+<div style="display:block" class="tooltip">
+<input type="text" class="button7" value="CR1: [MA] Explicit content on the site that caters to a mature audience. There are excessive inappropriate language used/heard in videos, vulgar teams and/or profanity in the video titles, and/or strong undertones and reference to sexual content, violence, drugs, and nudity. Generally tailored towards an 18yr+ audience. It also includes incendiary language and opinions on non-protected ideologies and topics." readonly><br>
+  <span class="tooltiptext">"CR1: [MA] Explicit content on the site that caters to a mature audience. There are excessive inappropriate language used/heard in videos, vulgar teams and/or profanity in the video titles, and/or strong undertones and reference to sexual content, violence, drugs, and nudity. Generally tailored towards an 18yr+ audience. It also includes incendiary language and opinions on non-protected ideologies and topics."</span>
+  </div>
+<div style="display:block" class="tooltip">
+<input type="text" class="button8" value="CR1: [X] most extreme and explicit type of content on the site thats not only inappropriate for advertising, but in most cases would be taken down from YouTube (as opposed to being age-gated) by the policy enforcement team when reported. There are excessive inappropriate language used/heard in the videos, and/or gratuitous scenes and references to sexual content, violence, drugs, and explicit nudity." readonly><br>
+  <span class="tooltiptext">"CR1: [X] most extreme and explicit type of content on the site thats not only inappropriate for advertising, but in most cases would be taken down from YouTube (as opposed to being age-gated) by the policy enforcement team when reported. There are excessive inappropriate language used/heard in the videos, and/or gratuitous scenes and references to sexual content, violence, drugs, and explicit nudity."</span>
+  </div>
+  <br>
+  <br>
+  <button id="7" class="button9">SAVE</button>
+  <button id="8" class="button9">WINDOW MODE</button>
+  <button id="9" class="button9">CLEAR</button>
+  EDIT: &nbsp  <input type="checkbox" id="locktext"> 
+
+  <br>
+  <div id="lines" style= "display:none">
+  Number of lines: &nbsp <input type="number" id="numero" value="24" max="50" min="1" >  
+  </div>
+  <br>
+<button id="info1">MORE INFO</button>
+<button id="instr1">INSTRUCTIONS</button>
+<button id="10">REPORT AN ISSUE</button>
+
+</body>
+</html>
